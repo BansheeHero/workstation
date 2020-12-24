@@ -52,7 +52,7 @@ Does not work for me:
 Your root and var directories should be large enough.
 Make sure to get all data directories to a separate mount. This will allow you to change them later or move them to `vg_data`.
 
-![Custom partiions](/images/CustomPartitions.png)
+![Custom partiions](/images/Installation_CustomSetup03.png)
 
 ### Small Flash or SSD drive
 
@@ -88,10 +88,8 @@ Sizes are not really precise and I have already moved `/home` to `vg_data`.
 This is where I cover creating and managing volumes:
 * Resizing and moving
 * Changing redundancy and stripping
-* 
 
 ## Creating a RAID-like volume
-
 
 In our current setup we already have a volume we would like to have redundancy on.
 Here I am adding mirroring to our home directory/
